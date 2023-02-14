@@ -5,6 +5,7 @@ import FaceBook from   "../components/icons/FaceBook";
 import Reddit from       "../components/icons/Reddit";
 import YouTube from     "../components/icons/YouTube";
 import Discord from     "../components/icons/Discord";
+import Twitter from     "../components/icons/Twitter";
 
 export const socials = [
   
@@ -33,6 +34,12 @@ export const socials = [
   },
 
   {
+    href: "https://twitter.com/Mahmoudzil4",
+    Icon: Twitter,
+    title: "Twitter",
+  },
+
+  {
     href: "https://www.reddit.com/user/mmsaeed509",
     Icon: Reddit,
     title: "Reddit",
@@ -49,6 +56,5 @@ export const socials = [
     Icon: Discord,
     title: "Discord",
   },
-  
   
 ];
