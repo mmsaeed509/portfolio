@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 400;
+  src: local("Poppins"),
+    url(../public/fonts/Poppins-Regular.ttf) format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 800;
+  src: local("Poppins"),
+    url(../public/fonts/Poppins-SemiBold.ttf) format("truetype");
+  font-display: swap;
+}
+
+html {
+  font-family: Poppins, Century Gothic, Arial, san-serif;
+  font-weight: 400;
+  text-size-adjust: none;
+  @apply bg-base text-text scroll-pt-24;
+}
+
+html, body {
+  scroll-behavior: smooth !important;
+}
+
+* {
+  @apply box-border;
+  -webkit-tap-highlight-color: transparent;
+}
+
+*::selection {
+  @apply text-base bg-lavender;
+}
+
+svg,
+img {
+  -webkit-user-drag: none;
+}
+
+.container {
+  @apply mx-auto px-6;
+}
+
+body {
+  @apply bg-base;
+}
+
+* {
+  --transition-duration: 200ms;
+  --transition-naming-function: ease-in-out;
+  transition: fill var(--transition-duration) var(--transition-naming-function),
+              stroke var(--transition-duration) var(--transition-naming-function),
+              background-color var(--transition-duration) var(--transition-naming-function),
+              color var(--transition-duration) var(--transition-naming-function);
+}
