@@ -13,7 +13,7 @@ import Discord from     "../components/icons/Discord";
 
 const Contact = () => (
   <section id="contact" className="my-20 lg:mt-32 container md:px-0">
-    <Title text="Contact me" />
+    <Title text="Contact Me" />
     <div className="flex gap-8 items-center justify-center mt-4 flex-col md:flex-row">
       <Box title="">
 
@@ -42,18 +42,18 @@ const Contact = () => (
         />
         
 
-{/* 
-        <ContactInfo
+
+        {/* <ContactInfo
           href="tel:+20"
           Icon={Phone}
           text="+20"
-        />
+        /> */}
 
-         */}
+        
 
       </Box>
 
-      {/* 
+      
       <Box title="Follow me on">
         {socials.map((social) => (
           <ContactInfo
@@ -63,8 +63,8 @@ const Contact = () => (
             text={social.title}
           />
         ))}
-      </Box> 
-      */}
+      </Box>
+     
 
     </div>
   </section>

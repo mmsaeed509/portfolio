@@ -1,0 +1,9 @@
+const JetbrainsToolbox = ({fill, ...props}) => (
+
+    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
+        <linearGradient id="eD69I1YuCUHwq502cfryka_vQoQDtNbTLVE_gr1" x1="45.611" x2="6.422" y1="38.362" y2="15.946" gradientTransform="matrix(1 0 0 -1 0 50)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#9e6fd9"></stop><stop offset=".156" stop-color="#ad6fc7"></stop><stop offset=".469" stop-color="#d36f97"></stop><stop offset=".551" stop-color="#de6f8a"></stop><stop offset="1" stop-color="#fc914d"></stop></linearGradient><path fill="url(#eD69I1YuCUHwq502cfryka_vQoQDtNbTLVE_gr1)" d="M23.066,4.493l-16,8.444C6.411,13.283,6,13.964,6,14.706v18.588	c0,0.742,0.411,1.423,1.066,1.769l16,8.444c0.584,0.308,1.283,0.308,1.867,0l16-8.444C41.589,34.717,42,34.036,42,33.294V14.706	c0-0.742-0.411-1.423-1.066-1.769l-16-8.444C24.349,4.184,23.651,4.184,23.066,4.493z"></path><linearGradient id="eD69I1YuCUHwq502cfrykb_vQoQDtNbTLVE_gr2" x1="24.858" x2="39.028" y1="35.145" y2="10.603" gradientTransform="matrix(1 0 0 -1 0 50)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4b4b4b"></stop><stop offset=".247" stop-color="#3e3e3e"></stop><stop offset=".686" stop-color="#2b2b2b"></stop><stop offset="1" stop-color="#252525"></stop></linearGradient><path fill="url(#eD69I1YuCUHwq502cfrykb_vQoQDtNbTLVE_gr2)" d="M24,23v20.739c0.321,0,0.641-0.077,0.933-0.231l16-8.445C41.59,34.717,42,34.036,42,33.294	V14.706c0-0.378-0.108-0.738-0.299-1.048L24,23z"></path><polygon fill="#fff" points="35.016,30.297 28,34 28,37 35.016,33.297"></polygon>
+    </svg>
+    
+);
+
+export default JetbrainsToolbox;

@@ -19,7 +19,7 @@ const navLinks = [
   },
   {
     href: "#contact",
-    text: "Contact",
+    text: "Contact Me",
   },
 ];
 

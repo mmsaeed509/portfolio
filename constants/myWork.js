@@ -9,6 +9,21 @@ import {
   docusaurus,
   bash,
   javascript,
+  CLion,
+  Git,
+  GitLFS,
+  Github,
+  Gitlab,
+  IntelliJ,
+  JetBrainstoolbox,
+  Jetbrains,
+  Linux,
+  NeoVim,
+  PyCharm,
+  VSCode,
+  Vim,
+  nvchad,
+
 } from "./techStacks";
 
 export const myWork = [
@@ -19,7 +34,8 @@ export const myWork = [
       "A highly customized arch-based distro For All Cybersecurity fields, Developed in Egypt 🇪🇬",
     techStack: {
       WM: [],
-      backend: [c, cpp, python, bash, lua, powershell],
+      backend: [c, python, bash, lua, powershell],
+      tools: [Git, Github, VSCode, Vim, nvchad],
     },
     url: "https://exodia-os.github.io/exodia-website/",
     sourceCode: "https://github.com/Exodia-OS",
@@ -34,6 +50,7 @@ export const myWork = [
 
       backend: [javascript, markdown],
       temp: [docusaurus],
+      tools: [Github, VSCode, nvchad],
     },
     url: "https://exodia-os.github.io/exodia-website/",
     sourceCode: "https://github.com/Exodia-OS/exodia-website",
@@ -47,6 +64,7 @@ export const myWork = [
     techStack: {
 
       backend: [python, bash],
+      tools: [Github, VSCode, nvchad],
 
     },
     url: "https://youtube.com/watch?v=4u6y80lHn4M&feature=shares",
@@ -60,6 +78,7 @@ export const myWork = [
       "A minimalist dynamic window manager for the X Window System developed by Suckless.",
     techStack: {
       backend: [c, python, bash],
+      tools: [Github, VSCode, nvchad, CLion],
     },
     url: "https://dwm.suckless.org/",
     sourceCode: "https://github.com/Exodia-OS/exodia-DWM",
@@ -71,8 +90,8 @@ export const myWork = [
     description:
       "A simple implementation for Ransomware.",
     techStack: {
-      frontend: [python],
       backend: [python],
+      tools: [VSCode, nvchad, PyCharm],
     },
     url: "https://github.com/mmsaeed509/Ransomware",
     sourceCode: "https://github.com/mmsaeed509/Ransomware",
