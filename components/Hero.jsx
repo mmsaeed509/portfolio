@@ -31,26 +31,27 @@ const Hero = () => (
 
       </p>
       
-      <h1 className="font-bold text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-lavender pt-4 pb-8">
-      Jr. Penetration Tester
+      <h1 className="font-bold text-5xl sm:text-6xl md:text-7xl lg:text-7xl text-lavender pt-4 pb-8">
+      A Jr. PenTester <br/>
+      A Linux Enthusiast
       </h1>
 
-{/* 
-      <p className="text-xl mb-8">
-        I craft <span className="font-bold">AWESOME</span> Projects with
-        <span className="inline-flex pl-1">
-          <video
-            width="24"
-            height="24"
-            loop={true}
-            autoPlay={true}
-            muted
-            src="/images/heart.webm"
-            alt="heart on fire, passion"
-          />
-        </span>
-      </p>
- */}
+{
+      // <p className="text-xl mb-8">
+      //   I craft <span className="font-bold">AWESOME</span> Projects with
+      //   <span className="inline-flex pl-1">
+      //     <video
+      //       width="24"
+      //       height="24"
+      //       loop={true}
+      //       autoPlay={true}
+      //       muted
+      //       src="/images/heart.webm"
+      //       alt="heart on fire, passion"
+      //     />
+      //   </span>
+      // </p>
+ }
 
       <div className="flex flex-col-reverse sm:flex-row items-center gap-3 mb-8 relative">
         <Link href="#work" className="w-full sm:w-auto">

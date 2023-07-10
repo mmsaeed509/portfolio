@@ -4,7 +4,7 @@ export const ThemeContext = createContext(null);
 
 const ThemeContextProvider = (props) => {
   const [isDarkTheme, setIsDarkTheme] = useState(
-    typeof window !== "undefined" ? JSON.parse(localStorage.getItem("mahIsDarkTheme") || "false") : false
+    typeof window !== "undefined" ? JSON.parse(localStorage.getItem("mahIsDarkTheme") || "true") : true
   );
 
   useEffect(() => {

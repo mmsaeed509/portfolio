@@ -22,6 +22,7 @@ import NvChad from                       "../components/icons/NvChad";
 import vim from                             "../components/icons/Vim";
 import neovim from                       "../components/icons/NeoVim";
 import VisualStudioCode from   "../components/icons/VisualStudioCode";
+import docker from                     "../components/icons/docker";
 import virtualbox from               "../components/icons/virtualbox";
 import qemu from                           "../components/icons/QEMU";
 import VMware from                       "../components/icons/vmware";
@@ -33,6 +34,12 @@ import Archlinux from                 "../components/icons/Archlinux";
 import debian from                       "../components/icons/debian";
 import WifiSlax from                   "../components/icons/WifiSlax";
 import RaspbianOS from                   "../components/icons/RaspbianOS";
+
+export const Docker = {
+  name: "Docker",
+  url: "https://www.docker.com/",
+  Icon: docker,
+};
 
 export const Raspbian = {
   name: "Raspbian OS",

@@ -85,6 +85,20 @@ export const myWork = [
   },
 
   {
+    thumbnail: "/images/i3wm.jpg",
+    title: "Exodia OS i3wm",
+    description:
+      "A tiling window manager designed for X11, inspired by wmii and written in C. It supports tiling, stacking, and tabbing layouts, which are handled manually.",
+    techStack: {
+      backend: [ bash],
+      tools: [Github, VSCode, nvchad],
+    },
+    url: "https://i3wm.org/",
+    sourceCode: "https://github.com/Exodia-OS/exodia-i3wm",
+  },
+
+
+  {
     thumbnail: "/images/ransomware.jpg",
     title: "Ransomware",
     description:
