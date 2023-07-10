@@ -32,8 +32,8 @@ const Hero = () => (
       </p>
       
       <h1 className="font-bold text-5xl sm:text-6xl md:text-7xl lg:text-7xl text-lavender pt-4 pb-8">
-      A Jr. PenTester <br/>
-      A Linux Enthusiast
+      A Jr. Linux Engineer  <br/>
+      A PenTesting Enthusiast
       </h1>
 
 {
