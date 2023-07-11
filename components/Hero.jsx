@@ -22,7 +22,7 @@ const Hero = () => (
         
         <br/>
         
-        a Linux Engineer, PenTesting Enthusiast and open source contributor
+        a Linux Engineer, CyberSecurity Enthusiast and open source contributor
 
       </p>
       
@@ -30,7 +30,7 @@ const Hero = () => (
       
       Linux Engineer  <br/>
 
-      PenTesting Enthusiast
+      CyberSecurity Enthusiast
 
       </h1>
 
