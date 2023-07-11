@@ -11,29 +11,27 @@ const Hero = () => (
   >
     <div className="w-fit md:w-auto my-auto text-text">
       <p className="flex gap-2 items-center">
+      
       Hi there 
-        <video
-          width="24"
-          height="24"
-          loop={true}
-          autoPlay={true}
-          muted
-          src="/images/hi.webm"
-          alt="hand wavying hello"
-        />
+      
+        <video width="24" height="24" loop={true} autoPlay={true} muted src="/images/hi.webm" alt="hand wavying hello" />
+
         <br/>
         
         I&apos;m Mahmoud Mohamed, You can call me Özil or Wolf
         
         <br/>
         
-        a Jr. PenTester, Linux Enthusiast and open source contributor
+        a Linux Engineer, PenTesting Enthusiast and open source contributor
 
       </p>
       
-      <h1 className="font-bold text-5xl sm:text-6xl md:text-7xl lg:text-7xl text-lavender pt-4 pb-8">
-      A Jr. Linux Engineer  <br/>
-      A PenTesting Enthusiast
+      <h1 className="font-bold text-5xl sm:text-6xl md:text-7xl lg:text-6xl text-lavender pt-4 pb-8">
+      
+      Linux Engineer  <br/>
+
+      PenTesting Enthusiast
+
       </h1>
 
 {
