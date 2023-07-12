@@ -28,7 +28,7 @@ const Hero = () => (
       
       <h1 className="font-bold text-5xl sm:text-6xl md:text-7xl lg:text-6xl text-lavender pt-4 pb-8">
       
-      Linux Engineer  <br/>
+      DevOps Engineer  <br/>
 
       CyberSecurity Enthusiast
 
