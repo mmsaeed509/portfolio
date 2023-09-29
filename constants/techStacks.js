@@ -22,7 +22,7 @@ import NvChad from                       "../components/icons/NvChad";
 import vim from                             "../components/icons/Vim";
 import neovim from                       "../components/icons/NeoVim";
 import VisualStudioCode from   "../components/icons/VisualStudioCode";
-import docker from                     "../components/icons/docker";
+import docker from                       "../components/icons/docker";
 import virtualbox from               "../components/icons/virtualbox";
 import qemu from                           "../components/icons/QEMU";
 import VMware from                       "../components/icons/vmware";
@@ -33,7 +33,65 @@ import RedHat from                       "../components/icons/RedHat";
 import Archlinux from                 "../components/icons/Archlinux";
 import debian from                       "../components/icons/debian";
 import WifiSlax from                   "../components/icons/WifiSlax";
-import RaspbianOS from                   "../components/icons/RaspbianOS";
+import RaspbianOS from               "../components/icons/RaspbianOS";
+import json from                           "../components/icons/json";
+import yaml from                           "../components/icons/yaml";
+import vagrant from                     "../components/icons/vagrant";
+import jenkins from                     "../components/icons/jenkins";
+import ansible from                     "../components/icons/ansible";
+import kubernetes from               "../components/icons/kubernetes";
+import aws from                             "../components/icons/aws";
+import nginx from                         "../components/icons/nginx";
+
+
+export const Nginx = {
+  name: "",
+  url: "https://www.nginx.com/",
+  Icon: nginx,
+};
+
+export const AWS = {
+  name: "AWS",
+  url: "https://aws.amazon.com/",
+  Icon: aws,
+};
+
+export const Kubernetes = {
+  name: "Kubernetes",
+  url: "https://kubernetes.io/",
+  Icon: kubernetes,
+};
+
+export const Ansible = {
+  name: "Ansible",
+  url: "https://www.ansible.com/",
+  Icon: ansible,
+};
+
+export const Jenkins = {
+  name: "Jenkins",
+  url: "https://www.jenkins.io/",
+  Icon: jenkins,
+};
+
+export const Vagrant = {
+  name: "vagrant",
+  url: "https://www.vagrantup.com/",
+  Icon: vagrant,
+};
+
+export const YAML = {
+  name: "YAML",
+  url: "https://yaml.org/",
+  Icon: yaml,
+};
+
+export const JSON = {
+  name: "JSON",
+  url: "https://www.json.org/",
+  Icon: json,
+};
+
 
 export const Docker = {
   name: "Docker",
