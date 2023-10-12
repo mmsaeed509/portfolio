@@ -42,7 +42,41 @@ import ansible from                     "../components/icons/ansible";
 import kubernetes from               "../components/icons/kubernetes";
 import aws from                             "../components/icons/aws";
 import nginx from                         "../components/icons/nginx";
+import terraform from                 "../components/icons/terraform";
+import podman from                       "../components/icons/podman";
+import helm from                           "../components/icons/helm";
+import sonarcloud from               "../components/icons/sonarcloud";
+import sonarqube from                 "../components/icons/sonarqube";
 
+export const SonarQube = {
+  name: "SonarQube",
+  url: "https://www.sonarsource.com/products/sonarqube/",
+  Icon: sonarqube,
+};
+
+export const SonarCloud = {
+  name: "SonarCloud",
+  url: "https://sonarcloud.io/explore/projects",
+  Icon: sonarcloud,
+};
+
+export const Helm = {
+  name: "HELM",
+  url: "https://helm.sh/",
+  Icon: helm,
+};
+
+export const Podman = {
+  name: "podman",
+  url: "https://podman.io/",
+  Icon: podman,
+};
+
+export const Terraform = {
+  name: "Terraform",
+  url: "https://www.terraform.io/",
+  Icon: terraform,
+};
 
 export const Nginx = {
   name: "",
